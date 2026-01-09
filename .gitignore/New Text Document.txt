@@ -1,7 +1,10 @@
 node_modules
-dist
-.env
+data
 uploads
-*.sqlite
+.env
 *.db
-/data
+*.db-shm
+*.db-wal
+*.sqlite
+dist
+
