@@ -2,9 +2,10 @@
   "name": "heavy-equipment-backend",
   "version": "1.0.0",
   "type": "module",
-  "main": "server.js",
+  "private": true,
+  "main": "src/index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/index.js"
   },
   "engines": {
     "node": ">=18"
